@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap');
+html, body, label {
+  font-family: 'Roboto', sans-serif;
+
+}
+body {
+	
+}
+h1{
+	background: linear-gradient(
+        to right,
+        #ff5e00 20%,
+        #81807e 30%,
+        #aca79e 70%,
+        #fa4801 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 5s ease-in-out infinite alternate;
+}
+@keyframes textShine {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+.sidebar{
+	border-radius: 10px;
+	margin:  0.25rem 0  0.25rem 0;
+	background-color: rgb(231, 228, 228);
+}
+
+
+.search{
+padding: 2px 10px;
+}
+h1{
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+@tailwind base;
+
+
+
+
+
+
+
+
+@tailwind components;
+@tailwind utilities;
+body {
+
+}
+
+
+
+.home {
+	text-transform: uppercase;
+  }
+button{
+	text-transform: uppercase;
+
+}
+td{
+
+	border: 1px solid;
+	border-color:rgb(187, 180, 180);
+}
+th{
+height: auto;
+text-transform: uppercase;
+font-size:0.75rem;
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+
+}
+label{
+	height: auto;
+	text-transform: uppercase;
+	font-size:0.75rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+#firstName{
+margin-left: 2px;
+height: 1.5rem;
+width: 7rem;
+}
+
+.table-input{
+	padding: 2px;
+	width: 3rem;
+	height: 1rem;
+}
+
+.tex{
+	font-size: 11px;
+    text-align: center;
+	/* display: flex;
+	flex-direction: column;
+	justify-content: center; */
+}
+.shadow:hover {
+	box-shadow: 10px 5px 10px rgb(190, 186, 186);
+  }
+  .shadow{
+	width: 12rem;
+  }
+  .active {
+	font-weight: bold;
+	color: #ff0000; /* Change the color as needed */
+  }
+/* @layer base{
+  html{
+    font-family: 'Inter', sans-serif;
+    line-height: 1.3;
+  }
+  table {
+	}
+	th,
+	td {
+		@apply  text-sm text-left border-y border-gray-200;
+	}
+	thead {
+		@apply bg-neutral-100;
+	}
+	th {
+		@apply font-semibold;
+	}
+	a {
+		@apply text-sky-500 hover:underline;
+	}
+} */
+
+
+/* @layer components {
+  
+  .component-sm {
+    @apply {setOpen(!open)};
+  }
+} */
